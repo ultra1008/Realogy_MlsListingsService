@@ -12,7 +12,7 @@ export GENERATED_PATH=internal/generated
 export GO_STUB_PATH=$GENERATED_PATH/realogy.com/api/mls/
 
 echo "# Installing tools and plugins"
-GOOS=darwin go get -u -d \
+GOOS=linux go get -u -d \
   github.com/golang/mock/mockgen@v1.5.0 \
   github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway \
   github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
